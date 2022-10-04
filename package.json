@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm install",
+    "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "jquery": "^3.6.1"
